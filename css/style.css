@@ -1,0 +1,336 @@
+body
+{
+	background-color: black;
+}
+#container
+{
+	position: absolute;
+	left: 700px;
+	height: 1600px;
+	width: 4485000px;
+	margin-left: 100px;
+	background-image: url(/images/lines.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+#marker
+{
+	position: fixed;
+	left: 800px;
+	bottom: 50px;
+	height: 1%;
+	transform: translate(-50%,0);
+}
+#distance
+{
+	position: fixed;
+	left: 825px;
+	bottom: 50px;
+	font-family: Helvetica Neue;
+	color: white;
+	font-size: 24px;
+}
+#sun
+{
+	position: absolute;
+	top: 50%;
+	height: 1393px;
+	transform: translate(-50%,-50%);
+}
+#sunText
+{
+	position: absolute;
+	top: 20px;
+	font-family: Helvetica Neue;
+	color: white;
+	font-size: 32px;
+	transform: translate(-50%,0);
+}
+#mercuryApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 55000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#mercury
+{
+	position: absolute;
+	top: 50%;
+	left: 64434px;
+	height: 5px;
+	transform: translate(-50%,-50%);
+}
+#mercuryArrow
+{
+	position: absolute;
+	top: 51%;
+	left: 64434px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#mercuryText
+{
+	position: absolute;
+	top: 70%;
+	left: 64434px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#venusApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 90000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#venus
+{
+	position: absolute;
+	top: 50%;
+	left: 108935px;
+	height: 12px;
+	transform: translate(-50%,-50%);
+}
+#venusArrow
+{
+	position: absolute;
+	top: 51%;
+	left: 108935px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#venusText
+{
+	position: absolute;
+	top: 70%;
+	left: 108935px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#earthApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 140000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#earth
+{
+	position: absolute;
+	top: 50%;
+	left: 151576px;
+	height: 13px;
+	transform: translate(-50%,-50%);
+}
+#earthArrow
+{
+	position: absolute;
+	top: 51%;
+	left: 151576px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#earthText
+{
+	position: absolute;
+	top: 70%;
+	left: 151576px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#marsApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 230000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#mars
+{
+	position: absolute;
+	top: 50%;
+	left: 242168px;
+	height: 6.77856px;
+	transform: translate(-50%,-50%);
+}
+#marsArrow
+{
+	position: absolute;
+	top: 51%;
+	left: 242168px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#marsText
+{
+	position: absolute;
+	top: 70%;
+	left: 242168px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#jupiterApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 790000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#jupiter
+{
+	position: absolute;
+	top: 50%;
+	left: 805561px;
+	height: 140px;
+	transform: translate(-50%,-50%);
+}
+#jupiterArrow
+{
+	position: absolute;
+	top: 55%;
+	left: 805561px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#jupiterText
+{
+	position: absolute;
+	top: 74%;
+	left: 805561px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#saturnApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 1485000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#saturn
+{
+	position: absolute;
+	top: 50%;
+	left: 1494659px;
+	height: 116px;
+	transform: translate(-50%,-50%);
+}
+#saturnArrow
+{
+	position: absolute;
+	top: 55%;
+	left: 1494659px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#saturnText
+{
+	position: absolute;
+	top: 74%;
+	left: 1494659px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#uranusApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 2900000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#uranus
+{
+	position: absolute;
+	top: 50%;
+	left: 2990126px;
+	height: 51px;
+	transform: translate(-50%,-50%);
+}
+#uranusArrow
+{
+	position: absolute;
+	top: 52%;
+	left: 2990126px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#uranusText
+{
+	position: absolute;
+	top: 71%;
+	left: 2990126px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
+#neptuneApproach
+{
+	position: absolute;
+	top: 25%;
+	left: 4470000px;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica Neue;
+	font-size: 300px;
+	color: white;
+}
+#neptune
+{
+	position: absolute;
+	top: 50%;
+	left: 4482401px;
+	height: 49px;
+	transform: translate(-50%,-50%);
+}
+#neptuneArrow
+{
+	position: absolute;
+	top: 52%;
+	left: 4482401px;
+	height: 20%;
+	transform: translate(-50%,0);
+}
+#neptuneText
+{
+	position: absolute;
+	top: 71%;
+	left: 4482401px;
+	transform: translate(-50%,0);
+	font-family: Helvetica Neue;
+	font-size: 32px;
+	color: white;
+}
