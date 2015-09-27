@@ -1,0 +1,1 @@
+The solar system scaled such that 1 pixel equals 1,000 kilometers. This was just a little project I worked on as I learned more about HTML - inspiration comes from Josh Worth's 1pixelmoon.com. Check it out, much better than mine!
